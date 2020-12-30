@@ -7,11 +7,11 @@ I am Akash, a sophomore year CSE student. I love coffee ☕ and I code in C, C++
 
 <code>
 
-<a href="https://twitter.com/Akash_Chouhan_" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="Akash_Chouhan_" height="30" width="40" /></a>
-<a href="https://www.linkedin.com/in/akashchouhan16/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="akashchouhan" height="30" width="40"/></a>
-<a href="https://www.instagram.com/akashchouhan16/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="akashchouhan16" height="30" width="40" /></a>
-<a href="https://www.hackerrank.com/akashchouhan?hr_r=1" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/hackerrank.svg" alt="akashchouhan" height="30" width="40"/></a>
-<a href="https://auth.geeksforgeeks.org/user/akashchouhan16/practice/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/geeksforgeeks.svg" alt="akashchouhan16" height="30" width="40" /></a>
+<a href="https://twitter.com/Akash_Chouhan_" target="_blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="Akash_Chouhan_" height="30" width="40" /></a>
+<a href="https://www.linkedin.com/in/akashchouhan16/" target="_blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="akashchouhan" height="30" width="40"/></a>
+<a href="https://www.instagram.com/akashchouhan16/" target="_blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="akashchouhan16" height="30" width="40" /></a>
+<a href="https://www.hackerrank.com/akashchouhan?hr_r=1" target="_blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/hackerrank.svg" alt="akashchouhan" height="30" width="40"/></a>
+<a href="https://auth.geeksforgeeks.org/user/akashchouhan16/practice/" target="_blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/geeksforgeeks.svg" alt="akashchouhan16" height="30" width="40" /></a>
 </p>
 </code>
 <br />
