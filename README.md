@@ -42,3 +42,4 @@ I am Akash, a sophomore year CSE student. I love coffee ☕ and I code in C, C++
 ---
 
 ![akashchouhan16's GitHub stats](https://github-readme-stats.vercel.app/api?username=akashchouhan16&show_icons=true&hide=["issues"]&theme=gotham)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=akashchouhan16&layout=compact&theme=onedark)](https://github.com/anuraghazra/github-readme-stats)
