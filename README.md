@@ -1,6 +1,6 @@
 # **Hey there** 👋
 
-I am Akash, a sophomore year CSE student. I love coffee ☕ and I code in **C**, **C++** and **Javascript**.
+I am Akash, a sophomore year Computer Science student. I love coffee ☕ and I code in **C**, **C++** and **Javascript**.
 <img align="right" alt="GIF" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="350" height="240" />
 
 ## **Connect with me** 📫
@@ -12,8 +12,6 @@ I am Akash, a sophomore year CSE student. I love coffee ☕ and I code in **C**,
 <a href="https://www.instagram.com/akashchouhan16/" target="_blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="akashchouhan16" height="30" width="40" /></a>
 <a href="mailto:akash.c1500@gmail.com?subject=Hey%20Akash,%20from%20Github" target="_blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/gmail.svg" alt="akashchouhan" height="30" width="40"/></a>
 
-<!-- <a href="https://www.hackerrank.com/akashchouhan?hr_r=1" target="_blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/hackerrank.svg" alt="akashchouhan" height="30" width="40"/></a> -->
-<!-- <a href="https://auth.geeksforgeeks.org/user/akashchouhan16/practice/" target="_blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/geeksforgeeks.svg" alt="akashchouhan16" height="30" width="40" /></a> -->
 </p>
 </code>
 <br />
@@ -62,6 +60,11 @@ I am Akash, a sophomore year CSE student. I love coffee ☕ and I code in **C**,
 
 ---
 
+<a href="https://github.com/akashchouhan16/Go-CLI-Sockets">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=akashchouhan16&theme=gotham&repo=Crypto-Dash" />
+</a><a href="https://github.com/akashchouhan16/Go-CLI-Sockets">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=akashchouhan16&theme=gotham&repo=URL-Minifier" />
+</a>
 <a href="https://github.com/akashchouhan16/QuickAccess-Chrome-Extension">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=akashchouhan16&theme=gotham&repo=QuickAccess-Chrome-Extension" />
 </a><a href="https://github.com/akashchouhan16/Go-CLI-Sockets">
