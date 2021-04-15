@@ -60,9 +60,9 @@ I am Akash, a sophomore year Computer Science student. I love coffee ☕ and I c
 
 ---
 
-<a href="https://github.com/akashchouhan16/Go-CLI-Sockets">
+<a href="https://github.com/akashchouhan16/Crypto-Dash">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=akashchouhan16&theme=gotham&repo=Crypto-Dash" />
-</a><a href="https://github.com/akashchouhan16/Go-CLI-Sockets">
+</a><a href="https://github.com/akashchouhan16/URL-Minifier">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=akashchouhan16&theme=gotham&repo=URL-Minifier" />
 </a>
 <a href="https://github.com/akashchouhan16/QuickAccess-Chrome-Extension">
