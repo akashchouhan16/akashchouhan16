@@ -1,6 +1,9 @@
 # **Hey there** 👋
 
-I am Akash, a sophomore year Computer Science student. I love coffee ☕ and I code in **C**, **C++** and **Javascript**.
+I am Akash, a pre-final year Computer Science student. I love coffee ☕ and I code in **C**, **C++** and **Javascript**.
+
+![visitors](https://visitor-badge-reloaded.herokuapp.com/badge?page_id=akashchouhan16.akashchouhan16&color=grey)
+
 <img align="right" alt="GIF" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="350" height="240" />
 
 ## **Connect with me** 📫
@@ -22,8 +25,6 @@ I am Akash, a sophomore year Computer Science student. I love coffee ☕ and I c
 
 - 📑Ask me about anything **@akash.c1500@gmail.com**
 
----
-
 ### **Tools**
 
 <br>
@@ -33,7 +34,6 @@ I am Akash, a sophomore year Computer Science student. I love coffee ☕ and I c
 <code><img height="30" src="https://cdn.jsdelivr.net/npm/simple-icons@3/icons/googlechrome.svg"></code><code><img height="30" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linux.svg"></code>
 <code><img height="30" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg"></code>
 <code><img height="30" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/heroku.svg"></code>
-
 <br/>
 
 ### **Language & Stack**
