@@ -2,7 +2,6 @@
 
 I am Akash, a pre-final year Computer Science student. I love coffee ☕ and I code in **C**, **C++** and **Javascript**.
 
-![visitors](https://visitor-badge-reloaded.herokuapp.com/badge?page_id=akashchouhan16.akashchouhan16&color=grey)
 
 <img align="right" alt="GIF" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="350" height="240" />
 
@@ -72,3 +71,5 @@ I am Akash, a pre-final year Computer Science student. I love coffee ☕ and I c
 </a>
 
 ---
+
+![visitors](https://visitor-badge-reloaded.herokuapp.com/badge?page_id=akashchouhan16.akashchouhan16&color=grey)
