@@ -1,7 +1,11 @@
 # **Hey there** 👋
 
-I am Akash, a pre-final year Computer Science student. I love coffee ☕ and I code in **C**, **C++** and **Javascript**.
+## I'm Akash Chouhan
 
+- Pre-final year Computer Science & Engineering student.
+- I love coffee ☕ and I code in **C**, **C++** and **Javascript**.
+
+---
 
 <img align="right" alt="GIF" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="350" height="240" />
 
@@ -24,7 +28,7 @@ I am Akash, a pre-final year Computer Science student. I love coffee ☕ and I c
 
 - 📑Ask me about anything **@akash.c1500@gmail.com**
 
-### **Tools**
+## **Tools**
 
 <br>
 <code><img height="30" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/visualstudiocode.svg"></code>
