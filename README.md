@@ -5,8 +5,6 @@
 - Pre-final year Computer Science & Engineering student.
 - I love coffee ☕ and I code in **C**, **C++** and **Javascript**.
 
----
-
 <img align="right" alt="GIF" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="350" height="240" />
 
 ## **Connect with me** 📫
@@ -73,7 +71,3 @@
 </a><a href="https://github.com/akashchouhan16/Go-CLI-Sockets">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=akashchouhan16&theme=gotham&repo=Go-CLI-Sockets" />
 </a>
-
----
-
-![visitors](https://visitor-badge-reloaded.herokuapp.com/badge?page_id=akashchouhan16.akashchouhan16&color=grey)
