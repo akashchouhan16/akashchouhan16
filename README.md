@@ -1,45 +1,50 @@
-# **Hey there** 👋
+<!--
+ Hello, wassupp :) 
+-->
+![header_AkashChouhan](github_header_2.gif)
 
-## I'm Akash Chouhan
+## **What am I upto?**
 
-- Pre-final year Computer Science & Engineering student.
-- I love coffee ☕ and I code in **C**, **C++** and **Javascript**.
+- 🔭 Currently working with Student Communities & Open Source Organizations
+  - <details><summary>Past/Current Engagements</summary>
+    <ul>
+    <li>Project Mentor at <strong>GWOC 2021</strong>.</li>
+    <li>Former Student Mentor at <strong>LGM Summer Of Code 2021</strong>.</li>
+    <li>Web Development Lead at <strong>GeeksForGeeks KIIT</strong>.</li>
+    <li>Technical Executive at <strong>Microsoft Student Community KIIT</strong>.</li>
+    <li>Web Application Developer at <strong>Mozilla BBSR</strong>.</li>
+    </ul>
+</details>
 
-<img align="right" alt="GIF" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="350" height="240" />
 
-## **Connect with me** 📫
+- 🕮 Always curious about Server side Technologies and System Design.
+- 🍘 Always up for collaboration on projects or research work.
 
-<code>
+  
 
-<a href="https://twitter.com/Akash_Chouhan_" target="_blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="Akash_Chouhan_" height="30" width="40" /></a>
-<a href="https://www.linkedin.com/in/akashchouhan16/" target="_blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="akashchouhan" height="30" width="40"/></a>
-<a href="https://www.instagram.com/akashchouhan16/" target="_blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="akashchouhan16" height="30" width="40" /></a>
-<a href="mailto:akash.c1500@gmail.com?subject=Hey%20Akash,%20from%20Github" target="_blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/gmail.svg" alt="akashchouhan" height="30" width="40"/></a>
+## **Connect With Me** 📫
 
-</p>
-</code>
-<br />
+<code><a href="mailto:akash.c1500@gmail.com?subject=Hey%20Akash,%20from%20Github" target="_blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/gmail.svg" alt="akashchouhan" height="30" width="40"/></a>  <a href="https://twitter.com/Akash_Chouhan_" target="_blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="Akash_Chouhan_" height="30" width="40" /></a>
+  <a href="https://www.linkedin.com/in/akashchouhan16/" target="_blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="akashchouhan" height="30" width="40"/></a>
+  <a href="https://www.instagram.com/akashchouhan16/" target="_blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="akashchouhan16" height="30" width="40" /></a></code>
+</br>
 
-- 🔭 I’m currently working on something cool.
-- 🕮 I’m currently learning more about **web frameworks**.
-- 🍘 I’m looking to collaborate on any project that'll help me learn new things.
-
-- 📑Ask me about anything **@akash.c1500@gmail.com**
 
 ## **Tools**
 
-<br>
+</br>
 <code><img height="30" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/visualstudiocode.svg"></code>
 <code><img height="30" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/npm.svg"></code>
 <code><img height="30" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/netlify.svg"></code><code><img height="30" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/firefox.svg"></code>
 <code><img height="30" src="https://cdn.jsdelivr.net/npm/simple-icons@3/icons/googlechrome.svg"></code><code><img height="30" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linux.svg"></code>
 <code><img height="30" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg"></code>
 <code><img height="30" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/heroku.svg"></code>
-<br/>
 
-### **Language & Stack**
+</br>
 
-<br/>
+## **Language & Frameworks**
+
+</br>
 <code><img height="30" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/c.svg"></code>
 <code><img height="30" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/cplusplus.svg"></code>
 <code><img height="30" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/javascript.svg"></code>
@@ -53,14 +58,16 @@
 <code><img height="30" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/mysql.svg"></code>
 <code><img height="30" width="30" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/node-dot-js.svg" /></code>
 <code><img height="30" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/sass.svg"></code>
+</br>
 
 ---
+## **Github Statistics**
 
 ![akashchouhan16's GitHub stats](https://github-readme-stats.vercel.app/api?username=akashchouhan16&show_icons=true&hide=["issues"]&theme=gotham)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=akashchouhan16&layout=compact&theme=gotham)](https://github.com/anuraghazra/github-readme-stats)
 
 ---
-
+## **Pinned Repository**
 <a href="https://github.com/akashchouhan16/Crypto-Dash">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=akashchouhan16&theme=gotham&repo=Crypto-Dash" />
 </a><a href="https://github.com/akashchouhan16/URL-Minifier">
