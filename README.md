@@ -63,8 +63,17 @@
 ---
 ## **Github Statistics**
 
+<p align="center">
+  <a href="https://github.com/adisin361/github-readme-activity-graph">
+    <img src="https://activity-graph.herokuapp.com/graph?username=akashchouhan16&theme=gotham&hide_border=true">
+  </a>
+</p>
+<code>
+<center> 
+
 ![akashchouhan16's GitHub stats](https://github-readme-stats.vercel.app/api?username=akashchouhan16&show_icons=true&hide=["issues"]&theme=gotham)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=akashchouhan16&layout=compact&theme=gotham)](https://github.com/anuraghazra/github-readme-stats)
+<center>
+<!-- [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=akashchouhan16&layout=compact&theme=gotham)](https://github.com/anuraghazra/github-readme-stats) -->
 
 ---
 ## **Pinned Repository**
