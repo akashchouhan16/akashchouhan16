@@ -6,16 +6,16 @@
 ## **What am I upto?**
 
 - 🔭 Currently working with Student Communities & Open Source Organizations
-  - <details><summary>Past/Current Engagements</summary>
-    <ul>
+
+<details><summary>Past/Current Engagements</summary>
+    <ul><li>Developer Community Vice President at <strong>Mozilla BBSR</strong>.</li>
     <li>Project Mentor at <strong>GWOC 2021</strong>.</li>
-    <li>Former Student Mentor at <strong>LGM Summer Of Code 2021</strong>.</li>
-    <li>Web Development Lead at <strong>GeeksForGeeks KIIT</strong>.</li>
     <li>Technical Executive at <strong>Microsoft Student Community KIIT</strong>.</li>
-    <li>Web Application Developer at <strong>Mozilla BBSR</strong>.</li>
+    <li>Lead Web Developer at <strong>GeeksForGeeks KIIT</strong>.</li>
+    <li>Former Student Mentor at <strong>LGM Summer Of Code 2021</strong>.</li>
     </ul>
 </details>
-
+</br>
 
 - 🕮 Always curious about Server side Technologies and System Design.
 - 🍘 Always up for collaboration on projects or research work.
