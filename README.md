@@ -1,7 +1,7 @@
 <!--
  Hello, wassupp :) 
 -->
-![header_AkashChouhan](github_header_2.gif)
+![header_AkashChouhan](github_header_3.gif)
 
 ## **What am I upto?**
 
