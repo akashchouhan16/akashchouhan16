@@ -56,11 +56,12 @@
 <code><img height="30" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/sass.svg"></code>
 </br>
 
+<!-- :P -->
 ---
 ## **Github Statistics**
 
 <p align="center">
-  <a href="https://github.com/adisin361/github-readme-activity-graph">
+  <a href="https://github.com/akashchouhan16/github-readme-activity-graph">
     <img src="https://activity-graph.herokuapp.com/graph?username=akashchouhan16&theme=gotham&hide_border=true">
   </a>
 </p>
@@ -69,7 +70,6 @@
 
 ![akashchouhan16's GitHub stats](https://github-readme-stats.vercel.app/api?username=akashchouhan16&show_icons=true&hide=["issues"]&theme=gotham)
 <center>
-<!-- [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=akashchouhan16&layout=compact&theme=gotham)](https://github.com/anuraghazra/github-readme-stats) -->
 
 ---
 ## **Pinned Repository**
