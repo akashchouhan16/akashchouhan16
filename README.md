@@ -11,9 +11,9 @@
 
 - <details><summary><strong>View Developer Community Engagements</strong></summary>
     <ul><li>Vice President at <strong>Mozilla BBSR</strong>.</li>
-    <li>Project Mentor at <strong>GWOC 2021</strong>.</li>
-    <li>Technical Executive at <strong>Microsoft Student Community KIIT</strong>.</li>
-    <li>Lead Web Developer at <strong>GeeksForGeeks KIIT</strong>.</li>
+    <li>Technical Executive at <strong>Microsoft Student Community (MSC KIIT)</strong>.</li>
+    <li>Former Web Development Lead at <strong>GeeksForGeeks KIIT</strong>.</li>
+    <li>Former Project Mentor at <strong>GWOC 2021</strong>.</li>
     <li>Former Student Mentor at <strong>LGM Summer Of Code 2021</strong>.</li>
     </ul>
 </details>  
@@ -75,11 +75,14 @@
 ## **Pinned Repository**
 <a href="https://github.com/akashchouhan16/Crypto-Dash">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=akashchouhan16&theme=gotham&repo=Crypto-Dash" />
-</a><a href="https://github.com/akashchouhan16/URL-Minifier">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=akashchouhan16&theme=gotham&repo=URL-Minifier" />
-</a>
-<a href="https://github.com/akashchouhan16/QuickAccess-Chrome-Extension">
+</a><a href="https://github.com/akashchouhan16/QuickAccess-Chrome-Extension">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=akashchouhan16&theme=gotham&repo=QuickAccess-Chrome-Extension" />
-</a><a href="https://github.com/akashchouhan16/Go-CLI-Sockets">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=akashchouhan16&theme=gotham&repo=Go-CLI-Sockets" />
 </a>
+<a href="https://github.com/akashchouhan16/Go-CLI-Sockets">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=akashchouhan16&theme=gotham&repo=Go-CLI-Sockets" />
+</a><a href="https://github.com/H2H-DASP/DataAudit-SnapShotPlugin">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=H2H-DASP&theme=gotham&repo=DataAudit-SnapShotPlugin" />
+</a>
+
+
+---
