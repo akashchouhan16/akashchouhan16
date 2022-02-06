@@ -73,16 +73,16 @@
 
 ---
 ## **Pinned Repository**
-<a href="https://github.com/akashchouhan16/Crypto-Dash">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=akashchouhan16&theme=gotham&repo=Crypto-Dash" />
-</a><a href="https://github.com/akashchouhan16/QuickAccess-Chrome-Extension">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=akashchouhan16&theme=gotham&repo=QuickAccess-Chrome-Extension" />
-</a>
-<a href="https://github.com/akashchouhan16/Go-CLI-Sockets">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=akashchouhan16&theme=gotham&repo=Go-CLI-Sockets" />
-</a><a href="https://github.com/H2H-DASP/DataAudit-SnapShotPlugin">
+<a href="https://github.com/H2H-DASP/DataAudit-SnapShotPlugin">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=H2H-DASP&theme=gotham&repo=DataAudit-SnapShotPlugin" />
 </a>
-
+<a href="https://github.com/Hack-Repository/POTD-Node.js-microservice">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Hack-Repository&theme=gotham&repo=POTD-Node.js-microservice" />
+</a>
+<a href="https://github.com/akashchouhan16/Crypto-Dash">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=akashchouhan16&theme=gotham&repo=Crypto-Dash" />
+</a><a href="https://github.com/akashchouhan16/Go-CLI-Sockets">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=akashchouhan16&theme=gotham&repo=Go-CLI-Sockets" />
+</a>
 
 ---
