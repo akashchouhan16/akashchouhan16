@@ -64,7 +64,7 @@
 
 <!-- :P -->
 ---
-## **Github Statistics**
+
 
 <!-- <p align="center">
   <a href="https://github.com/akashchouhan16/github-readme-activity-graph">
@@ -72,12 +72,12 @@
   </a>
 </p> -->
 <code>
-<center> 
+<div align="center"> 
+<h2>Github Statistics</h2>
 
 ![akashchouhan16's GitHub stats](https://github-readme-stats.vercel.app/api?username=akashchouhan16&show_icons=true&hide=["issues"]&theme=dark)
-<center>
+<div>
 
----
 ## **Pinned Repository**
 <a href="https://github.com/H2H-DASP/DataAudit-SnapShotPlugin">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=H2H-DASP&theme=dark&repo=DataAudit-SnapShotPlugin" />
