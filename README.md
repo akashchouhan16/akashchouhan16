@@ -74,21 +74,19 @@
 <code>
 <center> 
 
-![akashchouhan16's GitHub stats](https://github-readme-stats.vercel.app/api?username=akashchouhan16&show_icons=true&hide=["issues"]&theme=gotham)
+![akashchouhan16's GitHub stats](https://github-readme-stats.vercel.app/api?username=akashchouhan16&show_icons=true&hide=["issues"]&theme=dark)
 <center>
 
 ---
 ## **Pinned Repository**
 <a href="https://github.com/H2H-DASP/DataAudit-SnapShotPlugin">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=H2H-DASP&theme=gotham&repo=DataAudit-SnapShotPlugin" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=H2H-DASP&theme=dark&repo=DataAudit-SnapShotPlugin" />
 </a>
 <a href="https://github.com/Hack-Repository/POTD-Node.js-microservice">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Hack-Repository&theme=gotham&repo=POTD-Node.js-microservice" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Hack-Repository&theme=dark&repo=POTD-Node.js-microservice" />
 </a>
 <a href="https://github.com/akashchouhan16/Crypto-Dash">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=akashchouhan16&theme=gotham&repo=Crypto-Dash" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=akashchouhan16&theme=dark&repo=Crypto-Dash" />
 </a><a href="https://github.com/akashchouhan16/Go-CLI-Sockets">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=akashchouhan16&theme=gotham&repo=Go-CLI-Sockets" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=akashchouhan16&theme=dark&repo=Go-CLI-Sockets" />
 </a>
-
----
