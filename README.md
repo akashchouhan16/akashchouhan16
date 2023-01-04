@@ -5,53 +5,13 @@
 ## Hi there! I'm Akash
 I'm a software engineer with a passion for coffee and a love for writing clean, efficient code.
 
-I'm currently a Software Engineer at [Dell Technologies](https://www.dell.com "Dell.com"), where I work on the Payments & Settlements team to build and maintain software systems that handle financial transactions
-🌱I have experience working with Typescript, JavaScript, and C++.
-- 
+<a href="https://www.linkedin.com/in/akashchouhan16" target="_blank">LinkedIn</a> • <a href="https://twitter.com/akashchouhan16_" target="_blank">Twitter</a> • <a href="https://github.com/akashchouhan16" target="_blank">Github</a> • <a href="https://akashchouhan16.medium.com/" target="_blank">Medium</a>
 
-- I'm always looking for new opportunities to learn and grow as a developer, so feel free to reach out and connect with me. 
+---
 
-<!-- Links -->
-<details>
-<summary>My Socials</summary>
+🌱 I'm currently a part of the Payment & Settlements team at [Dell Technologies](https://www.dell.com "Dell.com"). My work revolves around building and maintaining software systems that handle millions of financial transactions for [Dell.com](https://www.dell.com).
 
-* **[LinkedIn](https://www.linkedin.com/in/akashchouhan16/)**
-* **[Mail](mailto:akash.c1500@gmail.com?subject=Hey%20Akash,%20from%20Github)**
-* **[Twitter](https://twitter.com/Akash_Chouhan_)**
-</details>
-
-<details>
-<summary>Practice Profiles</summary>
-
-* **[LeetCode](https://leetcode.com/akashchouhan/ "@akashchouhan")**
-* **[GeeksforGeeks](https://auth.geeksforgeeks.org/user/akashchouhan16/practice "@akashchouhan16")**
-* **[Interviewbit](https://www.interviewbit.com/profile/akash-chouhan_810 "@akash-chouhan_810")**
-</details>
-
-
-<!-- Github Readme stats card -->
-<details>
-<summary>Github Statistics</summary>
-<code> 
-<div align="center"> 
-
-![akashchouhan16's GitHub stats](https://github-readme-stats.vercel.app/api?username=akashchouhan16&show_icons=true&hide=["issues"]&theme=dark&hide_border=true&border_radius=10)
-<div>
-</code>
-</details>
-
-</br>
-
-<!-- Pinned / Featured Repositories -->
-### **Pinned Repositories**
-<a href="https://github.com/akashchouhan16/Go-CLI-Sockets"><img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=blumea&theme=dark&hide_border=true&border_radius=10&repo=Blumea"/>
-
-<a href="https://github.com/H2H-DASP/DataAudit-SnapShotPlugin"><img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=H2H-DASP&theme=dark&hide_border=true&border_radius=10&repo=DataAudit-SnapShotPlugin"/>
-
-<a href="https://github.com/Hack-Repository/POTD-GoogleChromeExtension"><img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Hack-Repository&theme=dark&hide_border=true&border_radiu=10&repo=POTD-GoogleChromeExtension"/>
-</a>
-
-<a href="https://github.com/Hack-Repository/POTD-Node.js-microservice"><img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Hack-Repository&theme=dark&hide_border=true&border_radiu=10&repo=POTD-Node.js-microservice"/>
-</a>
-
+💼 Former Software Engineer Intern [PeopleHum](https://www.peoplehum.com/ "peopleHum"), Web Engineer Apprenticeship [Quinbay](https://www.quinbay.com/ "Quinbay"), SDE Intern (Backend) [Heiphen](https://heiphen.com/ "Heiphen").
+ 
+🔭 I'm always looking for new opportunities to learn and grow as a developer. Feel free to reach out and connect with me! :) 
 
