@@ -2,8 +2,14 @@
  Hello, wassupp!
 -->
 
-<!-- Banner -->
-![Profile Banner](github_header2022.gif)
+## Hi there! I'm Akash
+I'm a software engineer with a passion for coffee and a love for writing clean, efficient code.
+
+I'm currently a Software Engineer at [Dell Technologies](https://www.dell.com "Dell.com"), where I work on the Payments & Settlements team to build and maintain software systems that handle financial transactions
+🌱I have experience working with Typescript, JavaScript, and C++.
+- 
+
+- I'm always looking for new opportunities to learn and grow as a developer, so feel free to reach out and connect with me. 
 
 <!-- Links -->
 <details>
