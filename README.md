@@ -2,7 +2,7 @@
  Hello, wassupp!
 -->
 
-## Hi there! I'm Akash
+### Hi, I am Akash 👋
 I'm a software engineer with a love for coffee and a passion for writing code. Presently learning how to build distributed and reliable systems. Interested in all things web.
 
 
