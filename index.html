@@ -5,108 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>akashchouhan16</title>
-  <!-- <link rel="stylesheet" type="text/css" href="./public/styles.css"> -->
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    #app {
-      background-color: white;
-      color: rgb(0, 0, 0);
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      font-weight: 400;
-
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      height: 100vh;
-      width: 100vw;
-      overflow-x: hidden;
-    }
-
-    .header-container {
-      display: flex;
-      flex-direction: column;
-      flex-wrap: nowrap;
-      align-content: center;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .navigation {
-      font-size: medium;
-      font-weight: 400;
-      text-decoration: underline;
-      width: 68vw;
-    }
-
-    .navigation .selected {
-      font-weight: bolder;
-    }
-
-    .app-header {
-      margin: 5vh 20vw;
-      margin-top: 10vh;
-      padding: 1em;
-      width: 70vw;
-      height: 15vh;
-      font-weight: bolder;
-      font-size: large;
-
-      display: flex;
-      justify-content: start;
-      align-items: center;
-      text-decoration: underline;
-    }
-
-    .app-container {
-      font-family: inter;
-      font-size: 18px;
-      font-weight: 400;
-      line-height: 27px;
-      color: rgb(0, 0, 0);
-      margin-bottom: 1em;
-      padding: 1em;
-      height: 45vh;
-      width: 70vw;
-      border: none;
-      border-radius: 1%;
-    }
-
-    .socials {
-      width: 35vw;
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      flex-direction: row;
-      flex-wrap: nowrap;
-      align-content: center;
-    }
-
-    .socials a {
-      text-decoration: none;
-      font-weight: 400;
-      color: rgb(4, 4, 150);
-      cursor: pointer;
-    }
-
-
-    .description {
-      padding: 2em;
-    }
-
-    .description p {
-      margin: 1em;
-    }
-
-    .description h2 {
-      margin: .5em;
-    }
-  </style>
+  <link rel="stylesheet" type="text/css" href="./styles.css">
   <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
@@ -126,25 +25,37 @@
 
     <div class="app-container">
       <div class="description">
-        <h2>Hello</h2>
-        <p>I’m currently working as a Software Engineer II at Dell, building systems for Global Digital Commerce.</p>
-        <p>I am mostly found fiddling around with Node.js, Go, C++, C#, Angular, Docker, or experimenting with NPM,
-          Actions, and
-          Travis CI.</p>
-        <p>I’m nerdy about DevOps and large scale distributed systems and how it can be powered throught Generative AI
-          and LLMs</p>
-      </div>
-
-      <div class="socials">
-        <a href="https://akashchouhan16.medium.com" target="_blank">Medium</a>
-        <a href="https://linkedin.com/in/akashchouhan16" target="_blank">LinkedIn</a>
-        <a href="https://peerlist.io/akashchouhan16" target="_blank">Peerlist</a>
-        <a href="https://github.com/akashchouhan16" target="_blank">GitHub</a>
+        <p><strong>Hey, I’m Akash — a Software Engineer II at Dell.</strong></p>
+        <p>I build scalable systems for Dell’s Global Digital Commerce platform.</p>
+        <p>You’ll usually find me tinkering with Node.js, Go, C++, C#, Angular, Docker, or exploring tools like NPM,
+          GitHub Actions, and Travis CI.</p>
+        <p>I’m passionate about DevOps, distributed systems at scale, and how they can be supercharged with Generative
+          AI and LLMs.</p>
+        <p class="socials">
+          <a href="https://akashchouhan16.medium.com" target="_blank">Medium</a>
+          <a href="https://linkedin.com/in/akashchouhan16" target="_blank">LinkedIn</a>
+          <a href="https://peerlist.io/akashchouhan16" target="_blank">Peerlist</a>
+          <a href="https://github.com/akashchouhan16" target="_blank">GitHub</a>
+        </p>
       </div>
     </div>
+
+    <div class="posts">
+      <h2 class="posts-header">Articles</h2>
+      <div class="medium-article article1">
+        <span class="article-date">27 Dec 2024</span>: <span class="article-title"><a
+            href="https://akashchouhan16.medium.com/why-move-to-a-micro-frontend-architecture-00c21cab48ed"
+            target="_blank">Why move to a Micro Frontend Architecture?</a></span>
+      </div>
+
+      <div class="medium-article article2">
+        <span class="article-date">6 Dec 2024</span>: <span class="article-title"><a
+            href="https://akashchouhan16.medium.com/howto-build-a-simple-proxy-server-to-bypass-cors-88e0e6c065e4"
+            target="_blank">How To - Build a Simple Proxy Server to Bypass CORS</a></span>
+      </div>
+    </div>
+
   </div>
-
-
   <script>
     console.table({
       status: 'Web app is live',
