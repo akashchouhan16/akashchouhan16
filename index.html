@@ -25,7 +25,7 @@
 
     <!-- Header -->
     <header class="text-center mb-6">
-      <h1 class="text-4xl md:text-5xl font-bold mb-2">Akash Chouhan</h1>
+      <h1 class="text-4xl md:text-5xl font-bold mb-2">{{name}}</h1>
       <nav class="text-gray-600 text-sm">
         <span class="font-semibold text-black">home</span>
         <span class="mx-1">/</span>
@@ -35,12 +35,10 @@
 
     <!-- Description -->
     <section class="bg-white shadow-md rounded-lg p-6 md:p-8 mb-8">
-      <p class="text-lg font-semibold mb-2">Hey, I’m Akash — a Software Engineer II at Dell.</p>
-      <p class="mb-2">I build scalable systems for Dell’s Global Digital Commerce platform.</p>
-      <p class="mb-2">You’ll usually find me tinkering with Node.js, Go, C++, C#, Angular, Docker, or exploring tools
-        like NPM, GitHub Actions, and Travis CI.</p>
-      <p class="mb-4">I’m passionate about DevOps, distributed systems at scale, and how they can be supercharged with
-        Generative AI and LLMs.</p>
+      <p class="text-lg font-semibold mb-2">{{description.line1}}</p>
+      <p class="mb-2">{{description.line2}}</p>
+      <p class="mb-2">{{description.line3}}</p>
+      <p class="mb-4">{{description.line4}}</p>
 
       <div class="flex flex-wrap gap-4">
         <a href="https://akashchouhan16.medium.com" target="_blank" class="text-blue-600 hover:underline">Medium</a>
@@ -50,32 +48,65 @@
         <a href="https://github.com/akashchouhan16" target="_blank" class="text-blue-600 hover:underline">GitHub</a>
       </div>
     </section>
-
-    <!-- Articles -->
-    <section class="bg-white shadow-md rounded-lg p-6 md:p-8">
-      <h2 class="text-2xl font-semibold mb-4">Articles</h2>
-
-      <div class="mb-4">
-        <span class="text-sm text-gray-500">27 Dec 2024</span>:
+    <div class="grid md:grid-cols-2 gap-6">
+      <!-- Article 1 -->
+      <div class="bg-white bg-gray-800 rounded-lg shadow-md overflow-hidden">
         <a href="https://akashchouhan16.medium.com/why-move-to-a-micro-frontend-architecture-00c21cab48ed"
-          target="_blank" class="text-blue-700 hover:underline font-medium">
-          Why move to a Micro Frontend Architecture?
+          target="_blank">
+          <img class="w-full h-48 object-cover"
+            src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*kIOJcsqHmZ0KxDQu8wk90w.png"
+            alt="Micro Frontend Thumbnail" />
         </a>
+        <div class="p-4">
+          <h3 class="text-xl font-semibold mb-1 dark:text-black">Why move to a Micro Frontend Architecture?</h3>
+          <p class="text-sm text-gray-600 dark:text-gray-500 mb-2">Published: 27 Dec 2024</p>
+          <p class="text-gray-700 dark:text-gray-800 text-sm">Understand how micro frontends empower large engineering
+            teams to scale UI development independently...</p>
+          <a class="inline-block mt-3 text-blue-600 dark:text-blue-700 font-medium hover:underline"
+            href="https://akashchouhan16.medium.com/why-move-to-a-micro-frontend-architecture-00c21cab48ed"
+            target="_blank">
+            Read more →
+          </a>
+        </div>
       </div>
 
-      <div>
-        <span class="text-sm text-gray-500">6 Dec 2024</span>:
+      <!-- Article 2 -->
+      <div class="bg-white bg-gray-800 rounded-lg shadow-md overflow-hidden">
         <a href="https://akashchouhan16.medium.com/howto-build-a-simple-proxy-server-to-bypass-cors-88e0e6c065e4"
-          target="_blank" class="text-blue-700 hover:underline font-medium">
-          How To - Build a Simple Proxy Server to Bypass CORS
+          target="_blank">
+          <img class="w-full h-48 object-cover"
+            src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*MWXDE4rwMLnW2LoRDtaqEQ.png"
+            alt="CORS Proxy Thumbnail" />
         </a>
+        <div class="p-4">
+          <h3 class="text-xl font-semibold mb-1 dark:text-black">How To - Build a Simple Proxy Server to Bypass CORS
+          </h3>
+          <p class="text-sm text-gray-600 dark:text-gray-500 mb-2">Published: 6 Dec 2024</p>
+          <p class="text-gray-700 dark:text-gray-800 text-sm">A quick tutorial on how to create a lightweight Node.js
+            proxy to solve annoying CORS issues for frontend development...</p>
+          <a class="inline-block mt-3 text-blue-600 dark:text-blue-700 font-medium hover:underline"
+            href="https://akashchouhan16.medium.com/howto-build-a-simple-proxy-server-to-bypass-cors-88e0e6c065e4"
+            target="_blank">
+            Read more →
+          </a>
+        </div>
       </div>
-    </section>
+    </div>
+
   </div>
 
   <script>
     new Vue({
-      el: '#app'
+      el: '#app',
+      data: {
+        name: 'Akash Chouhan',
+        description: {
+          line1: 'Hey, I’m Akash — a Software Engineer II at Dell.',
+          line2: 'I build scalable systems for Dell’s Global Digital Commerce platform.',
+          line3: 'You’ll usually find me tinkering with Node.js, Go, C++, C#, Angular, Docker, or exploring tools like NPM, GitHub Actions, and Travis CI.',
+          line4: 'I’m passionate about DevOps, distributed systems at scale, and how they can be supercharged with Generative AI and LLMs.'
+        }
+      }
     });
 
     console.table({
