@@ -4,84 +4,83 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Akash Chouhan — Software Engineer at Dell. I build scalable systems with a love for DevOps, Node.js, and distributed systems.">
+  <meta name="author" content="Akash Chouhan">
+  <meta property="og:title" content="Akash Chouhan" />
+  <meta property="og:description" content="Software Engineer II @ Dell | DevOps + Systems at Scale" />
   <title>Akash Chouhan</title>
-  <link rel="stylesheet" type="text/css" href="./styles.css" />
-  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png" />
-  <link rel="manifest" href="./site.webmanifest" />
-  <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+  <link rel="manifest" href="./site.webmanifest">
 </head>
 
-<body>
-  <div id="app">
-    <div class="header-container">
-      <div class="app-header">
-        <h1>{{ name }}</h1>
-      </div>
-      <div class="navigation">
-        <span class="selected">home</span><span>/about</span>
-      </div>
-    </div>
+<body class="bg-gray-50 text-gray-800 leading-relaxed">
+  <div id="app" class="max-w-4xl mx-auto px-4 py-8">
 
-    <div class="app-container">
-      <div class="description">
-        <p><strong>Hey, I’m {{ name }} — a {{ title }} at {{ company }}.</strong></p>
-        <p>{{ description1 }}</p>
-        <p>{{ description2 }}</p>
-        <p>{{ description3 }}</p>
-        <p class="socials">
-          <a v-for="link in socialLinks" :key="link.name" :href="link.url" target="_blank">{{ link.name }}</a>
-        </p>
-      </div>
-    </div>
+    <!-- Header -->
+    <header class="text-center mb-6">
+      <h1 class="text-4xl md:text-5xl font-bold mb-2">Akash Chouhan</h1>
+      <nav class="text-gray-600 text-sm">
+        <span class="font-semibold text-black">home</span>
+        <span class="mx-1">/</span>
+        <span class="hover:underline cursor-pointer">about</span>
+      </nav>
+    </header>
 
-    <div class="posts">
-      <h2 class="posts-header">Articles</h2>
-      <div v-for="article in articles" :key="article.title" class="medium-article">
-        <span class="article-date">{{ article.date }}</span>:
-        <span class="article-title">
-          <a :href="article.url" target="_blank">{{ article.title }}</a>
-        </span>
+    <!-- Description -->
+    <section class="bg-white shadow-md rounded-lg p-6 md:p-8 mb-8">
+      <p class="text-lg font-semibold mb-2">Hey, I’m Akash — a Software Engineer II at Dell.</p>
+      <p class="mb-2">I build scalable systems for Dell’s Global Digital Commerce platform.</p>
+      <p class="mb-2">You’ll usually find me tinkering with Node.js, Go, C++, C#, Angular, Docker, or exploring tools
+        like NPM, GitHub Actions, and Travis CI.</p>
+      <p class="mb-4">I’m passionate about DevOps, distributed systems at scale, and how they can be supercharged with
+        Generative AI and LLMs.</p>
+
+      <div class="flex flex-wrap gap-4">
+        <a href="https://akashchouhan16.medium.com" target="_blank" class="text-blue-600 hover:underline">Medium</a>
+        <a href="https://linkedin.com/in/akashchouhan16" target="_blank"
+          class="text-blue-600 hover:underline">LinkedIn</a>
+        <a href="https://peerlist.io/akashchouhan16" target="_blank" class="text-blue-600 hover:underline">Peerlist</a>
+        <a href="https://github.com/akashchouhan16" target="_blank" class="text-blue-600 hover:underline">GitHub</a>
       </div>
-    </div>
+    </section>
+
+    <!-- Articles -->
+    <section class="bg-white shadow-md rounded-lg p-6 md:p-8">
+      <h2 class="text-2xl font-semibold mb-4">Articles</h2>
+
+      <div class="mb-4">
+        <span class="text-sm text-gray-500">27 Dec 2024</span>:
+        <a href="https://akashchouhan16.medium.com/why-move-to-a-micro-frontend-architecture-00c21cab48ed"
+          target="_blank" class="text-blue-700 hover:underline font-medium">
+          Why move to a Micro Frontend Architecture?
+        </a>
+      </div>
+
+      <div>
+        <span class="text-sm text-gray-500">6 Dec 2024</span>:
+        <a href="https://akashchouhan16.medium.com/howto-build-a-simple-proxy-server-to-bypass-cors-88e0e6c065e4"
+          target="_blank" class="text-blue-700 hover:underline font-medium">
+          How To - Build a Simple Proxy Server to Bypass CORS
+        </a>
+      </div>
+    </section>
   </div>
 
   <script>
     new Vue({
-      el: "#app",
-      data: {
-        name: "Akash Chouhan",
-        title: "Software Engineer II",
-        company: "Dell",
-        description1: "I build scalable systems for Dell’s Global Digital Commerce platform.",
-        description2: "You’ll usually find me tinkering with Node.js, Go, C++, C#, Angular, Docker, or exploring tools like NPM, GitHub Actions, and Travis CI.",
-        description3: "I’m passionate about DevOps, distributed systems at scale, and how they can be supercharged with Generative AI and LLMs.",
-        socialLinks: [
-          { name: "Medium", url: "https://akashchouhan16.medium.com" },
-          { name: "LinkedIn", url: "https://linkedin.com/in/akashchouhan16" },
-          { name: "Peerlist", url: "https://peerlist.io/akashchouhan16" },
-          { name: "GitHub", url: "https://github.com/akashchouhan16" }
-        ],
-        articles: [
-          {
-            date: "27 Dec 2024",
-            title: "Why move to a Micro Frontend Architecture?",
-            url: "https://akashchouhan16.medium.com/why-move-to-a-micro-frontend-architecture-00c21cab48ed"
-          },
-          {
-            date: "6 Dec 2024",
-            title: "How To - Build a Simple Proxy Server to Bypass CORS",
-            url: "https://akashchouhan16.medium.com/howto-build-a-simple-proxy-server-to-bypass-cors-88e0e6c065e4"
-          }
-        ]
-      },
-      mounted() {
-        console.table({
-          status: "Web app is live",
-          message: "this is a temporary dev site, currently WIP."
-        });
-      }
+      el: '#app'
+    });
+
+    console.table({
+      status: 'Web app is live',
+      message: 'this is a temporary dev site, currently WIP.'
     });
   </script>
 </body>
