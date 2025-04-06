@@ -5,7 +5,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>akashchouhan16</title>
-  <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
   <link rel="stylesheet" type="text/css" href="./public/styles.css">
   <link rel="apple-touch-icon" sizes="180x180" href="./public/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="./public/favicon/favicon-32x32.png">
@@ -17,7 +16,7 @@
   <div id="app">
     <div class="header-container">
       <div class="app-header">
-        <h1>{{ name }}</h1>
+        <h1>Akash Chouhan</h1>
       </div>
       <div class="navigation">
         <span class="selected">home</span><span>/about</span>
@@ -27,9 +26,12 @@
     <div class="app-container">
       <div class="description">
         <h2>Hello</h2>
-        <p>{{note1}}</p>
-        <p>{{note2}}</p>
-        <p>{{note3}}</p>
+        <p>I’m currently working as a Software Engineer II at Dell, building systems for Global Digital Commerce.</p>
+        <p>I am mostly found fiddling around with Node.js, Go, C++, C#, Angular, Docker, or experimenting with NPM,
+          Actions, and
+          Travis CI.</p>
+        <p>I’m nerdy about DevOps and large scale distributed systems and how it can be powered throught Generative AI
+          and LLMs</p>
       </div>
 
       <div class="socials">
@@ -43,18 +45,10 @@
 
 
   <script>
-    var app = new Vue({
-      el: '#app',
-      data: {
-        title: 'akashchouhan16',
-        name: 'Akash Chouhan',
-        header: 'Hi, I am Akash 👋',
-        note1: 'I’m currently working as a Software Engineer II at Dell, building systems for Global Digital Commerce.',
-        note2: 'I am mostly found fiddling around with Node.js, Go, C++, C#, Angular, Docker, or experimenting with  NPM, Actions, and Travis CI.',
-        note3: 'I’m nerdy about DevOps and large scale distributed systems and how it can be powered throught Generative AI and LLMs'
-      }
-    })
-
+    console.table({
+      status: 'Web app is live',
+      message: 'this is a temporary dev site, currently WIP.'
+    });
   </script>
 </body>
 
