@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Ubuntu
+- Font Author: undefined
+- Font Source: https://fonts.gstatic.com/s/ubuntu/v20/4iCv6KVjbNBYlgoCjC3Tt2aMH4V_gg.ttf
+- Font License: undefined)

@@ -1,25 +1,61 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>akashchouhan16</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+  <link rel="stylesheet" type="text/css" href="./public/styles.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="./public/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./public/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./public/favicon/favicon-16x16.png">
+  <link rel="manifest" href="./public/favicon/site.webmanifest">
 </head>
+
 <body>
-<h2>Hi, I am Akash 👋</h2>
+  <div id="app">
+    <div class="header-container">
+      <div class="app-header">
+        <h1>{{ name }}</h1>
+      </div>
+      <div class="navigation">
+        <span class="selected">home</span><span>/about</span>
+      </div>
+    </div>
 
-<div>
-I am a software engineer with a love for chai and a passion for writing code.
-<br>
-Connect with me on: LinkedIn • Twitter • Peerlist
-</div>
-<div>
-<p> 🍁 I am currently a part of the Dell Inc's Order Search Team for their Global Digital Commerce application. </p>
-<p> ⚗️ You'd mostly find me fiddling around with Node.js, Go, C++, C#, Angular, Docker, or experimenting with NPM, Actions, and Travis CI. </p>
-<p> 📜 I love to talk about engineering and design on medium. </p>
-</div>
+    <div class="app-container">
+      <div class="description">
+        <h2>Hello</h2>
+        <p>{{note1}}</p>
+        <p>{{note2}}</p>
+        <p>{{note3}}</p>
+      </div>
 
-<div>
-<p> Please feel free to reach out or email me at akashchouhan16. </p>
+      <div class="socials">
+        <a href="https://akashchouhan16.medium.com" target="_blank">Medium</a>
+        <a href="https://linkedin.com/in/akashchouhan16" target="_blank">LinkedIn</a>
+        <a href="https://peerlist.io/akashchouhan16" target="_blank">Peerlist</a>
+        <a href="https://github.com/akashchouhan16" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </div>
 
-<p><i>~ akashchouhan</i></p>
-</div>
+
+  <script>
+    var app = new Vue({
+      el: '#app',
+      data: {
+        title: 'akashchouhan16',
+        name: 'Akash Chouhan',
+        header: 'Hi, I am Akash 👋',
+        note1: 'I’m currently working as a Software Engineer II at Dell, building systems for Global Digital Commerce.',
+        note2: 'I am mostly found fiddling around with Node.js, Go, C++, C#, Angular, Docker, or experimenting with  NPM, Actions, and Travis CI.',
+        note3: 'I’m nerdy about DevOps and large scale distributed systems and how it can be powered throught Generative AI and LLMs'
+      }
+    })
+
+  </script>
 </body>
+
 </html>
