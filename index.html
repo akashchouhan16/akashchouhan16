@@ -4,11 +4,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description"
-    content="Akash Chouhan — Software Engineer at Dell. I build scalable systems with a love for DevOps, Node.js, and distributed systems.">
+  <meta name="description" content="Akash Chouhan — Software Engineer.">
   <meta name="author" content="Akash Chouhan">
   <meta property="og:title" content="Akash Chouhan" />
-  <meta property="og:description" content="Software Engineer II @ Dell | DevOps + Systems at Scale" />
+  <meta property="og:description" content="Software Engineer" />
   <title>Akash Chouhan</title>
 
   <script src="https://cdn.tailwindcss.com"></script>
@@ -18,97 +17,220 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
   <link rel="manifest" href="./site.webmanifest">
+
+  <style>
+    * {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    #preloader {
+      transition: opacity 0.5s ease-in-out;
+    }
+  </style>
 </head>
 
 <body class="bg-gray-50 text-gray-800 leading-relaxed">
-  <div id="app" class="max-w-4xl mx-auto px-4 py-8">
-
-    <!-- Header -->
-    <header class="text-center mb-6">
-      <h1 class="text-4xl md:text-5xl font-bold mb-2">{{name}}</h1>
-      <nav class="text-gray-600 text-sm">
-        <span class="font-semibold text-black">home</span>
-        <span class="mx-1">/</span>
-        <span class="hover:underline cursor-pointer">about</span>
-      </nav>
-    </header>
-
-    <!-- Description -->
-    <section class="bg-white shadow-md rounded-lg p-6 md:p-8 mb-8">
-      <p class="text-lg font-semibold mb-2">{{description.line1}}</p>
-      <p class="mb-2">{{description.line2}}</p>
-      <p class="mb-2">{{description.line3}}</p>
-      <p class="mb-4">{{description.line4}}</p>
-
-      <div class="flex flex-wrap gap-4">
-        <a href="https://akashchouhan16.medium.com" target="_blank" class="text-blue-600 hover:underline">Medium</a>
-        <a href="https://linkedin.com/in/akashchouhan16" target="_blank"
-          class="text-blue-600 hover:underline">LinkedIn</a>
-        <a href="https://peerlist.io/akashchouhan16" target="_blank" class="text-blue-600 hover:underline">Peerlist</a>
-        <a href="https://github.com/akashchouhan16" target="_blank" class="text-blue-600 hover:underline">GitHub</a>
-      </div>
-    </section>
-    <div class="grid md:grid-cols-2 gap-6">
-      <!-- Article 1 -->
-      <div class="bg-white bg-gray-800 rounded-lg shadow-md overflow-hidden">
-        <a href="https://akashchouhan16.medium.com/why-move-to-a-micro-frontend-architecture-00c21cab48ed"
-          target="_blank">
-          <img class="w-full h-48 object-cover"
-            src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*kIOJcsqHmZ0KxDQu8wk90w.png"
-            alt="Micro Frontend Thumbnail" />
-        </a>
-        <div class="p-4">
-          <h3 class="text-xl font-semibold mb-1 dark:text-black">Why move to a Micro Frontend Architecture?</h3>
-          <p class="text-sm text-gray-600 dark:text-gray-500 mb-2">Published: 27 Dec 2024</p>
-          <p class="text-gray-700 dark:text-gray-800 text-sm">Understand how micro frontends empower large engineering
-            teams to scale UI development independently...</p>
-          <a class="inline-block mt-3 text-blue-600 dark:text-blue-700 font-medium hover:underline"
-            href="https://akashchouhan16.medium.com/why-move-to-a-micro-frontend-architecture-00c21cab48ed"
-            target="_blank">
-            Read more →
-          </a>
-        </div>
-      </div>
-
-      <!-- Article 2 -->
-      <div class="bg-white bg-gray-800 rounded-lg shadow-md overflow-hidden">
-        <a href="https://akashchouhan16.medium.com/howto-build-a-simple-proxy-server-to-bypass-cors-88e0e6c065e4"
-          target="_blank">
-          <img class="w-full h-48 object-cover"
-            src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*MWXDE4rwMLnW2LoRDtaqEQ.png"
-            alt="CORS Proxy Thumbnail" />
-        </a>
-        <div class="p-4">
-          <h3 class="text-xl font-semibold mb-1 dark:text-black">How To - Build a Simple Proxy Server to Bypass CORS
-          </h3>
-          <p class="text-sm text-gray-600 dark:text-gray-500 mb-2">Published: 6 Dec 2024</p>
-          <p class="text-gray-700 dark:text-gray-800 text-sm">A quick tutorial on how to create a lightweight Node.js
-            proxy to solve annoying CORS issues for frontend development...</p>
-          <a class="inline-block mt-3 text-blue-600 dark:text-blue-700 font-medium hover:underline"
-            href="https://akashchouhan16.medium.com/howto-build-a-simple-proxy-server-to-bypass-cors-88e0e6c065e4"
-            target="_blank">
-            Read more →
-          </a>
-        </div>
-      </div>
+  <!-- Preloader -->
+  <div id="preloader" class="fixed inset-0 bg-white dark:bg-gray-900 flex items-center justify-center z-50">
+    <div class="flex flex-col items-center space-y-4">
+      <div class="w-20 h-20 border-4 border-blue-800 border-t-transparent rounded-full animate-spin"></div>
+      <p class="text-sm text-gray-600 dark:text-gray-300 font-semibold">
+        loading...
+      </p>
     </div>
-
   </div>
 
+  <!-- Main Content -->
+  <div class="bg-white text-gray-900 dark:bg-gray-900 dark:text-white min-h-screen">
+    <div id="app" class="max-w-4xl mx-auto px-4 py-8">
+
+      <!-- Header -->
+      <header class="text-center mb-6">
+        <h1 class="text-4xl md:text-5xl font-bold mb-2">{{name}}</h1>
+        <nav class="text-gray-600 text-sm">
+          <span class="font-semibold dark:text-gray-500">{{utils.home}}</span>
+          <span class="mx-1">/</span>
+          <span class="hover:underline cursor-pointer dark:text-gray-300">{{utils.about}}</span>
+        </nav>
+        <div class="fixed top-4 left-4 z-50 text-sm text-gray-600 dark:text-gray-300">
+          🕒 {{ currentTime }}
+        </div>
+        <button @click="toggleDarkMode"
+          class="fixed top-4 right-4 z-50 bg-gray-200 dark:bg-gray-700 text-black dark:text-white px-3 py-1 rounded shadow-sm transition">
+          {{ isDark ? 'Light ☀︎' : 'Dark ☾' }}
+        </button>
+      </header>
+
+      <!-- Description -->
+      <section class="dark:bg-white dark:text-gray-700 shadow-md rounded-md p-6 md:p-8 mb-10">
+        <p class="text-xl font-semibold mb-2">{{description.line1}}</p>
+        <p class="text-lg mb-2">{{description.line2}}</p>
+        <p class="text-lg mb-2">{{description.line3}}</p>
+        <p class="text-lg mb-4">{{description.line4}}</p>
+
+        <div class="flex flex-wrap gap-4">
+          <a href="https://akashchouhan16.medium.com" target="_blank" class="text-blue-700 hover:underline">Medium</a>
+          <a href="https://linkedin.com/in/akashchouhan16" target="_blank"
+            class="text-blue-700 hover:underline">LinkedIn</a>
+          <a href="https://peerlist.io/akashchouhan16" target="_blank"
+            class="text-blue-600 hover:underline">Peerlist</a>
+          <a href="https://github.com/akashchouhan16" target="_blank" class="text-blue-700 hover:underline">GitHub</a>
+        </div>
+      </section>
+      <!-- Posts -->
+      <section>
+        <h2 class="text-3xl font-bold mb-6">{{ utils.posts }}</h2>
+
+        <div class="grid md:grid-cols-2 gap-6">
+          <!-- Article 1 -->
+          <div class="bg-white bg-gray-600 rounded-md shadow-md h-100 overflow-hidden">
+            <a href="https://akashchouhan16.medium.com/why-move-to-a-micro-frontend-architecture-00c21cab48ed"
+              target="_blank">
+              <img class="w-full h-48 object-cover"
+                src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*kIOJcsqHmZ0KxDQu8wk90w.png"
+                alt="Micro Frontend Thumbnail" />
+            </a>
+            <div class="p-4">
+              <h3 class="text-lg font-semibold mb-1 dark:text-black">Why move to a Micro Frontend Architecture?</h3>
+              <p class="text-sm text-gray-600 dark:text-gray-500 mb-2">Published: 27 Dec 2024</p>
+              <p class="text-gray-700 text-gray-600 text-sm">Understand how micro frontends empower large engineering
+                teams to scale UI development independently...</p>
+              <a class="inline-block mt-3 text-blue-600 dark:text-blue-700 font-medium hover:underline"
+                href="https://akashchouhan16.medium.com/why-move-to-a-micro-frontend-architecture-00c21cab48ed"
+                target="_blank">
+                Read more →
+              </a>
+            </div>
+          </div>
+
+          <!-- Article 2 -->
+          <div class="bg-white bg-gray-800 rounded-md shadow-md overflow-hidden">
+            <a href="https://akashchouhan16.medium.com/howto-build-a-simple-proxy-server-to-bypass-cors-88e0e6c065e4"
+              target="_blank">
+              <img class="w-full h-48 object-cover"
+                src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*MWXDE4rwMLnW2LoRDtaqEQ.png"
+                alt="CORS Proxy Thumbnail" />
+            </a>
+            <div class="p-4">
+              <h3 class="text-lg font-semibold mb-1 dark:text-black">Build a Simple Proxy Server to Bypass CORS
+              </h3>
+              <p class="text-sm text-gray-600 dark:text-gray-500 mb-2">Published: 6 Dec 2024</p>
+              <p class="text-gray-700 dark:text-gray-600 text-sm">A quick tutorial on how to create a lightweight
+                Node.js
+                proxy to solve annoying CORS issues for frontend development...</p>
+              <a class="inline-block mt-3 text-blue-600 dark:text-blue-700 font-medium hover:underline"
+                href="https://akashchouhan16.medium.com/howto-build-a-simple-proxy-server-to-bypass-cors-88e0e6c065e4"
+                target="_blank">
+                Read more →
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section class="my-12">
+        <h2 class="text-3xl font-bold mb-6">Projects</h2>
+        <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <div v-for="project in githubProjects" :key="project.name"
+            class="bg-white dark:bg-gray-800 rounded-md shadow-md overflow-hidden hover:shadow-md transition">
+            <img :src="project.image" :alt="project.name + ' custom-thumbnail'" class="w-full h-40 object-cover" />
+            <div class="p-5">
+              <h3 class="text-xl font-semibold mb-2">{{ project.name }}</h3>
+              <p class="text-gray-600 dark:text-gray-300 mb-4  h-20 overflow-hidden">{{ project.description }}</p>
+              <a :href="project.link" target="_blank"
+                class="inline-block px-4 py-2 text-sm font-medium bg-gray-700 text-white rounded-sm hover:bg-gray-800 transition">
+                View on GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </div>
   <script>
     new Vue({
       el: '#app',
       data: {
+        isDark: false,
         name: 'Akash Chouhan',
         description: {
-          line1: 'Hey, I’m Akash — a Software Engineer II at Dell.',
-          line2: 'I build scalable systems for Dell’s Global Digital Commerce platform.',
-          line3: 'You’ll usually find me tinkering with Node.js, Go, C++, C#, Angular, Docker, or exploring tools like NPM, GitHub Actions, and Travis CI.',
-          line4: 'I’m passionate about DevOps, distributed systems at scale, and how they can be supercharged with Generative AI and LLMs.'
+          line1: 'Hello, I’m Akash.',
+          line2: 'A software engineer with a passion for clean code — and a soft spot for chai.',
+          line3: 'Currently building at Dell as a Software Engineer II for the Global Digital Commerce platform.',
+          line4: 'You’ll usually find me deep in Node.js, Go, C++, C#, Angular, or playing with Docker, NPM, Actions, and Travis CI.',
+          line5: 'This site is my digital garden — a collection of projects, posts, and things I’m learning along the way.'
+        },
+        currentTime: '',
+        utils: {
+          home: 'home',
+          about: 'about',
+          copyright: 'copyright',
+          posts: 'Posts'
+        },
+        githubProjects: [
+          {
+            name: 'NodeCache.js',
+            description: '🍁 A simple and intuitive in-memory cache with TTL support.',
+            link: 'https://github.com/akashchouhan16/nodeCache.js',
+            image: 'https://github.com/akashchouhan16/nodeCache.js/assets/56465610/3c72f526-73f2-4528-b01d-d188532b8231'
+          },
+          {
+            name: 'Traceip',
+            description: '🧬 Go based CLI to geo locate IP addresses, list mx records and more.',
+            link: 'https://github.com/akashchouhan16/traceip',
+            image: 'https://dqy38fnwh4fqs.cloudfront.net/UHJKQQQ7K8O8L782OR6JPLNRMOBM/projects/traceip.webp'
+          },
+          {
+            name: 'Blumea',
+            description: '🧩 A streamlined bloom filter npm package for JavaScript.',
+            link: 'https://github.com/akashchouhan16/devops-toolkit',
+            image: 'https://user-images.githubusercontent.com/56465610/215418750-3eb64619-5a69-48d1-949f-2af3c492a5d4.png'
+          }
+        ]
+      },
+      created() {
+        // Initialize theme from localStorage
+        this.isDark = localStorage.getItem('theme') === 'dark';
+        document.documentElement.classList.toggle('dark', this.isDark);
+
+        // browser resource hungry code below
+        this.updateTime();
+        setInterval(this.updateTime, 1000);
+      },
+      mounted() {
+        setTimeout(() => {
+          const preloader = document.getElementById("preloader");
+          if (preloader) {
+            preloader.style.opacity = "0";
+            preloader.style.pointerEvents = "none";
+            setTimeout(() => {
+              preloader.style.display = "none";
+            }, 500);
+          }
+        }, 600); // .6s artificial delay
+      },
+      methods: {
+        toggleDarkMode() {
+          this.isDark = !this.isDark;
+          localStorage.setItem('theme', this.isDark ? 'dark' : 'light');
+          document.documentElement.classList.toggle('dark', this.isDark);
+        },
+        updateTime() {
+          const now = new Date();
+          this.currentTime = now.toLocaleTimeString([], {
+            hour: '2-digit',
+            minute: '2-digit',
+            second: '2-digit'
+          });
         }
       }
     });
 
+    tailwind.config = {
+      darkMode: 'class'
+    }
     console.table({
       status: 'Web app is live',
       message: 'this is a temporary dev site, currently WIP.'
