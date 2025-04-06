@@ -2,21 +2,22 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>akashchouhan16</title>
-  <link rel="stylesheet" type="text/css" href="./styles.css">
-  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
-  <link rel="manifest" href="./site.webmanifest">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Akash Chouhan</title>
+  <link rel="stylesheet" type="text/css" href="./styles.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png" />
+  <link rel="manifest" href="./site.webmanifest" />
+  <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
 </head>
 
 <body>
   <div id="app">
     <div class="header-container">
       <div class="app-header">
-        <h1>Akash Chouhan</h1>
+        <h1>{{ name }}</h1>
       </div>
       <div class="navigation">
         <span class="selected">home</span><span>/about</span>
@@ -25,41 +26,62 @@
 
     <div class="app-container">
       <div class="description">
-        <p><strong>Hey, I’m Akash — a Software Engineer II at Dell.</strong></p>
-        <p>I build scalable systems for Dell’s Global Digital Commerce platform.</p>
-        <p>You’ll usually find me tinkering with Node.js, Go, C++, C#, Angular, Docker, or exploring tools like NPM,
-          GitHub Actions, and Travis CI.</p>
-        <p>I’m passionate about DevOps, distributed systems at scale, and how they can be supercharged with Generative
-          AI and LLMs.</p>
+        <p><strong>Hey, I’m {{ name }} — a {{ title }} at {{ company }}.</strong></p>
+        <p>{{ description1 }}</p>
+        <p>{{ description2 }}</p>
+        <p>{{ description3 }}</p>
         <p class="socials">
-          <a href="https://akashchouhan16.medium.com" target="_blank">Medium</a>
-          <a href="https://linkedin.com/in/akashchouhan16" target="_blank">LinkedIn</a>
-          <a href="https://peerlist.io/akashchouhan16" target="_blank">Peerlist</a>
-          <a href="https://github.com/akashchouhan16" target="_blank">GitHub</a>
+          <a v-for="link in socialLinks" :key="link.name" :href="link.url" target="_blank">{{ link.name }}</a>
         </p>
       </div>
     </div>
 
     <div class="posts">
       <h2 class="posts-header">Articles</h2>
-      <div class="medium-article article1">
-        <span class="article-date">27 Dec 2024</span>: <span class="article-title"><a
-            href="https://akashchouhan16.medium.com/why-move-to-a-micro-frontend-architecture-00c21cab48ed"
-            target="_blank">Why move to a Micro Frontend Architecture?</a></span>
-      </div>
-
-      <div class="medium-article article2">
-        <span class="article-date">6 Dec 2024</span>: <span class="article-title"><a
-            href="https://akashchouhan16.medium.com/howto-build-a-simple-proxy-server-to-bypass-cors-88e0e6c065e4"
-            target="_blank">How To - Build a Simple Proxy Server to Bypass CORS</a></span>
+      <div v-for="article in articles" :key="article.title" class="medium-article">
+        <span class="article-date">{{ article.date }}</span>:
+        <span class="article-title">
+          <a :href="article.url" target="_blank">{{ article.title }}</a>
+        </span>
       </div>
     </div>
-
   </div>
+
   <script>
-    console.table({
-      status: 'Web app is live',
-      message: 'this is a temporary dev site, currently WIP.'
+    new Vue({
+      el: "#app",
+      data: {
+        name: "Akash Chouhan",
+        title: "Software Engineer II",
+        company: "Dell",
+        description1: "I build scalable systems for Dell’s Global Digital Commerce platform.",
+        description2: "You’ll usually find me tinkering with Node.js, Go, C++, C#, Angular, Docker, or exploring tools like NPM, GitHub Actions, and Travis CI.",
+        description3: "I’m passionate about DevOps, distributed systems at scale, and how they can be supercharged with Generative AI and LLMs.",
+        socialLinks: [
+          { name: "Medium", url: "https://akashchouhan16.medium.com" },
+          { name: "LinkedIn", url: "https://linkedin.com/in/akashchouhan16" },
+          { name: "Peerlist", url: "https://peerlist.io/akashchouhan16" },
+          { name: "GitHub", url: "https://github.com/akashchouhan16" }
+        ],
+        articles: [
+          {
+            date: "27 Dec 2024",
+            title: "Why move to a Micro Frontend Architecture?",
+            url: "https://akashchouhan16.medium.com/why-move-to-a-micro-frontend-architecture-00c21cab48ed"
+          },
+          {
+            date: "6 Dec 2024",
+            title: "How To - Build a Simple Proxy Server to Bypass CORS",
+            url: "https://akashchouhan16.medium.com/howto-build-a-simple-proxy-server-to-bypass-cors-88e0e6c065e4"
+          }
+        ]
+      },
+      mounted() {
+        console.table({
+          status: "Web app is live",
+          message: "this is a temporary dev site, currently WIP."
+        });
+      }
     });
   </script>
 </body>

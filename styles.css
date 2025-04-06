@@ -124,3 +124,68 @@ body {
     font-weight: 500;
     color: rgb(0, 0, 10);
 }
+
+/* 900px or below query */
+@media (max-width: 900px) {
+    .app-container {
+        width: 100vw;
+    }
+}
+
+/* 🎯 600px and below (mobile/tablets) */
+@media (max-width: 600px) {
+    body {
+        padding: 15px;
+    }
+
+    .app-header h1 {
+        font-size: 1.6rem;
+    }
+
+    .navigation {
+        font-size: 0.9rem;
+    }
+
+    .app-container,
+    .posts {
+        padding: 20px;
+    }
+
+    .posts {
+        width: 100vw;
+    }
+
+    .posts-header {
+        font-size: 1.3rem;
+    }
+
+    a {
+        display: block;
+        margin-bottom: 8px;
+    }
+}
+
+/* 🎯 320px and below (smallest mobile screens) */
+@media (max-width: 320px) {
+    .app-header h1 {
+        font-size: 1.3rem;
+    }
+
+    .navigation {
+        font-size: 0.8rem;
+    }
+
+    .app-container,
+    .posts {
+        padding: 15px;
+    }
+
+    .description p,
+    .posts .medium-article {
+        font-size: 0.95rem;
+    }
+
+    a {
+        font-size: 0.95rem;
+    }
+}
