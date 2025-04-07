@@ -13,10 +13,10 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
 
-  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
-  <link rel="manifest" href="./site.webmanifest">
+  <link rel="apple-touch-icon" sizes="180x180" href="./public/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./public/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./public/favicon-16x16.png">
+  <link rel="manifest" href="./public/site.webmanifest">
 
   <style>
     * {
@@ -25,6 +25,12 @@
 
     #preloader {
       transition: opacity 0.5s ease-in-out;
+    }
+
+    @media (max-width: 900px) {
+      .timmer {
+        display: none;
+      }
     }
   </style>
 </head>
@@ -52,17 +58,18 @@
           <span class="mx-1">/</span>
           <span class="hover:underline cursor-pointer dark:text-gray-300">{{utils.about}}</span>
         </nav>
-        <div class="fixed top-4 left-4 z-50 text-sm text-gray-600 dark:text-gray-300">
+        <div
+          class="fixed top-4 left-4 z-50 text-sm text-black dark:text-white bg-gray-200 dark:bg-gray-700 timmer p-1 rounded">
           🕒 {{ currentTime }}
         </div>
         <button @click="toggleDarkMode"
-          class="fixed top-4 right-4 z-50 bg-gray-200 dark:bg-gray-700 text-black dark:text-white px-3 py-1 rounded shadow-sm transition">
+          class="fixed top-4 right-4 z-50 bg-gray-200 dark:bg-gray-700 text-sm text-black dark:text-white px-3 py-1 rounded shadow-sm transition">
           {{ isDark ? 'Light ☀︎' : 'Dark ☾' }}
         </button>
       </header>
 
       <!-- Description -->
-      <section class="dark:bg-white dark:text-gray-700 shadow-md rounded-md p-6 md:p-8 mb-10">
+      <section class="bg-white dark:bg-gray-800 dark:text-white-700 shadow-md rounded-md p-6 md:p-8 mb-10">
         <p class="text-xl font-semibold mb-2">{{description.line1}}</p>
         <p class="text-lg mb-2">{{description.line2}}</p>
         <p class="text-lg mb-2">{{description.line3}}</p>
@@ -84,7 +91,7 @@
 
         <div class="grid md:grid-cols-2 gap-6">
           <!-- Article 1 -->
-          <div class="bg-white bg-gray-600 rounded-md shadow-md h-100 overflow-hidden">
+          <div class="bg-white dark:bg-gray-800 dark:text-white-700 bg-gray-600 rounded-md shadow-md overflow-hidden">
             <a href="https://akashchouhan16.medium.com/why-move-to-a-micro-frontend-architecture-00c21cab48ed"
               target="_blank">
               <img class="w-full h-48 object-cover"
@@ -92,10 +99,11 @@
                 alt="Micro Frontend Thumbnail" />
             </a>
             <div class="p-4">
-              <h3 class="text-lg font-semibold mb-1 dark:text-black">Why move to a Micro Frontend Architecture?</h3>
-              <p class="text-sm text-gray-600 dark:text-gray-500 mb-2">Published: 27 Dec 2024</p>
-              <p class="text-gray-700 text-gray-600 text-sm">Understand how micro frontends empower large engineering
-                teams to scale UI development independently...</p>
+              <h3 class="text-lg font-semibold mb-1 text-black dark:text-white">Why move to a Micro Frontend
+                Architecture?</h3>
+              <p class="text-sm text-gray-600 dark:text-white mb-2">Published: 27 Dec 2024</p>
+              <p class="text-gray-700 dark:text-gray-200 text-sm">Understand how micro frontends empower large
+                engineering teams to scale UI development independently...</p>
               <a class="inline-block mt-3 text-blue-600 dark:text-blue-700 font-medium hover:underline"
                 href="https://akashchouhan16.medium.com/why-move-to-a-micro-frontend-architecture-00c21cab48ed"
                 target="_blank">
@@ -105,7 +113,7 @@
           </div>
 
           <!-- Article 2 -->
-          <div class="bg-white bg-gray-800 rounded-md shadow-md overflow-hidden">
+          <div class="bg-white dark:bg-gray-800 dark:text-white-700 bg-gray-800 rounded-md shadow-md overflow-hidden">
             <a href="https://akashchouhan16.medium.com/howto-build-a-simple-proxy-server-to-bypass-cors-88e0e6c065e4"
               target="_blank">
               <img class="w-full h-48 object-cover"
@@ -113,12 +121,12 @@
                 alt="CORS Proxy Thumbnail" />
             </a>
             <div class="p-4">
-              <h3 class="text-lg font-semibold mb-1 dark:text-black">Build a Simple Proxy Server to Bypass CORS
+              <h3 class="text-lg font-semibold mb-1 text-black dark:text-white">Build a Simple Proxy Server to Bypass
+                CORS
               </h3>
-              <p class="text-sm text-gray-600 dark:text-gray-500 mb-2">Published: 6 Dec 2024</p>
-              <p class="text-gray-700 dark:text-gray-600 text-sm">A quick tutorial on how to create a lightweight
-                Node.js
-                proxy to solve annoying CORS issues for frontend development...</p>
+              <p class="text-sm text-gray-600 dark:text-white mb-2">Published: 6 Dec 2024</p>
+              <p class="text-gray-700 dark:text-gray-200 text-sm">A quick tutorial on how to create a lightweight
+                Node.js proxy to solve annoying CORS issues for frontend development...</p>
               <a class="inline-block mt-3 text-blue-600 dark:text-blue-700 font-medium hover:underline"
                 href="https://akashchouhan16.medium.com/howto-build-a-simple-proxy-server-to-bypass-cors-88e0e6c065e4"
                 target="_blank">
@@ -210,7 +218,7 @@
               preloader.style.display = "none";
             }, 500);
           }
-        }, 600); // .6s artificial delay
+        }, 700); // .7s artificial delay
       },
       methods: {
         toggleDarkMode() {
