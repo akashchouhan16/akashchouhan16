@@ -33,9 +33,6 @@
       }
     }
   </style>
-  <script src="./public/data.js"></script>
-  <script src="/data.js"></script>
-
 </head>
 
 <body class="bg-gray-50 text-gray-800 leading-relaxed">
@@ -148,16 +145,16 @@
       el: '#app',
       data: {
         isDark: false,
-        name: data?.name,
-        descriptions: data?.descriptions,
+        name: '',
+        descriptions: [],
         currentTime: '',
-        labels: data?.labels,
-        links: data?.links,
-        posts: data?.posts,
-        githubProjects: data?.projects
+        labels: {},
+        links: [],
+        posts: [],
+        githubProjects: []
       },
       created() {
-
+        this.fetchData();
         this.isDark = localStorage.getItem('theme') === 'dark';
         document.documentElement.classList.toggle('dark', this.isDark);
 
@@ -178,6 +175,20 @@
         }, 700); // .7s artificial delay
       },
       methods: {
+        async fetchData() {
+          try {
+            const res = await fetch('./public/data.json');
+            const data = await res.json();
+            this.name = data.name;
+            this.descriptions = data.descriptions;
+            this.labels = data.labels;
+            this.links = data.links;
+            this.posts = data.posts;
+            this.githubProjects = data.projects;
+          } catch (err) {
+            console.error("Failed to fetch data.json:", err);
+          }
+        },
         toggleDarkMode() {
           this.isDark = !this.isDark;
           localStorage.setItem('theme', this.isDark ? 'dark' : 'light');
