@@ -177,16 +177,16 @@
       methods: {
         async fetchData() {
           try {
-            const res = await fetch('/data.json');
-            const data = await res.json();
-            this.name = data.name;
-            this.descriptions = data.descriptions;
-            this.labels = data.labels;
-            this.links = data.links;
-            this.posts = data.posts;
-            this.githubProjects = data.projects;
+            const res = await fetch('/siteData.json');
+            const siteData = await res.json();
+            this.name = siteData.name;
+            this.descriptions = siteData.descriptions;
+            this.labels = siteData.labels;
+            this.links = siteData.links;
+            this.posts = siteData.posts;
+            this.githubProjects = siteData.projects;
           } catch (err) {
-            console.error("Failed to fetch data.json:", err);
+            console.error("Failed to fetch siteData.json:", err);
           }
         },
         toggleDarkMode() {
