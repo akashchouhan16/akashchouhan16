@@ -1,4 +1,4 @@
-const data = {
+window.data = {
     name: "Akash Chouhan",
     links: [
         {
