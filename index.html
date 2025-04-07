@@ -33,6 +33,7 @@
       }
     }
   </style>
+  <script src="./public/data.js"></script>
 </head>
 
 <body class="bg-gray-50 text-gray-800 leading-relaxed">
@@ -52,14 +53,14 @@
 
       <!-- Header -->
       <header class="text-center mb-6">
-        <h1 class="text-4xl md:text-5xl font-bold mb-2">{{name}}</h1>
+        <h1 class="text-5xl md:text-5xl font-bold mb-2">{{name}}</h1>
         <nav class="text-gray-600 text-sm">
-          <span class="font-semibold dark:text-gray-500">{{utils.home}}</span>
+          <span class="font-semibold dark:text-gray-500">{{labels?.home}}</span>
           <span class="mx-1">/</span>
-          <span class="hover:underline cursor-pointer dark:text-gray-300">{{utils.about}}</span>
+          <span class="hover:underline cursor-pointer dark:text-gray-300">{{labels?.about}}</span>
         </nav>
         <div
-          class="fixed top-4 left-4 z-50 text-sm text-black dark:text-white bg-gray-200 dark:bg-gray-700 timmer p-1 rounded">
+          class="fixed top-4 left-4 z-50 text-sm text-gray-500 dark:text-white bg-gray-100 dark:bg-gray-700 timmer p-1 rounded">
           🕒 {{ currentTime }}
         </div>
         <button @click="toggleDarkMode"
@@ -69,67 +70,43 @@
       </header>
 
       <!-- Description -->
-      <section class="bg-white dark:bg-gray-800 dark:text-white-700 shadow-md rounded-md p-6 md:p-8 mb-10">
-        <p class="text-xl font-semibold mb-2">{{description.line1}}</p>
-        <p class="text-lg mb-2">{{description.line2}}</p>
-        <p class="text-lg mb-2">{{description.line3}}</p>
-        <p class="text-lg mb-2">{{description.line4}}</p>
-        <p class="text-lg mb-4">{{description.line5}}</p>
+      <section
+        class="bg-white dark:bg-gray-800 dark:text-white-700 shadow-lg rounded-2xl p-8 md:p-8 mb-10 text-base leading-relaxed">
+        <p class="text-xl font-semibold mb-2">{{labels?.greet}}</p>
+        <p v-for="(description, index) in descriptions" :key="index" class="text-lg mb-2">
+          {{description}}
+        </p>
 
         <div class="flex flex-wrap gap-4">
-          <a href="https://akashchouhan16.medium.com" target="_blank" class="text-blue-700 hover:underline">Medium</a>
-          <a href="https://linkedin.com/in/akashchouhan16" target="_blank"
-            class="text-blue-700 hover:underline">LinkedIn</a>
-          <a href="https://peerlist.io/akashchouhan16" target="_blank"
-            class="text-blue-600 hover:underline">Peerlist</a>
-          <a href="https://github.com/akashchouhan16" target="_blank" class="text-blue-700 hover:underline">GitHub</a>
+          <a v-for="(link, index) in links" :key="index" :href="link.href" rel="noopener noreferrer" target="_blank"
+            class="text-blue-700 hover:underline transition-all hover:scale-103">
+            {{ link?.title }}
+          </a>
         </div>
       </section>
+
       <!-- Posts -->
-      <section>
-        <h2 class="text-3xl font-bold mb-6">{{ utils.posts }}</h2>
+      <section class="mt-16">
+        <h2 class="text-3xl font-bold mb-6">{{labels?.posts}}</h2>
 
         <div class="grid md:grid-cols-2 gap-6">
-          <!-- Article 1 -->
-          <div class="bg-white dark:bg-gray-800 dark:text-white-700 bg-gray-600 rounded-md shadow-md overflow-hidden">
-            <a href="https://akashchouhan16.medium.com/why-move-to-a-micro-frontend-architecture-00c21cab48ed"
-              target="_blank">
-              <img class="w-full h-48 object-cover"
-                src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*kIOJcsqHmZ0KxDQu8wk90w.png"
-                alt="Micro Frontend Thumbnail" />
+          <div v-for="(post, index) in posts" :key="index"
+            class="bg-white dark:bg-gray-800 rounded-2xl shadow-md overflow-hidden transition-transform hover:scale-[1.01]">
+            <a :href="post.href" target="_blank" rel="noopener noreferrer">
+              <img class="w-full h-48 object-cover" :src="post.image" :alt="post.imageAlt" />
             </a>
             <div class="p-4">
-              <h3 class="text-lg font-semibold mb-1 text-black dark:text-white">Why move to a Micro Frontend
-                Architecture?</h3>
-              <p class="text-sm text-gray-600 dark:text-white mb-2">Published: 27 Dec 2024</p>
-              <p class="text-gray-700 dark:text-gray-200 text-sm">Understand how micro frontends empower large
-                engineering teams to scale UI development independently...</p>
-              <a class="inline-block mt-3 text-blue-600 dark:text-blue-700 font-medium hover:underline"
-                href="https://akashchouhan16.medium.com/why-move-to-a-micro-frontend-architecture-00c21cab48ed"
-                target="_blank">
-                Read more →
-              </a>
-            </div>
-          </div>
-
-          <!-- Article 2 -->
-          <div class="bg-white dark:bg-gray-800 dark:text-white-700 bg-gray-800 rounded-md shadow-md overflow-hidden">
-            <a href="https://akashchouhan16.medium.com/howto-build-a-simple-proxy-server-to-bypass-cors-88e0e6c065e4"
-              target="_blank">
-              <img class="w-full h-48 object-cover"
-                src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*MWXDE4rwMLnW2LoRDtaqEQ.png"
-                alt="CORS Proxy Thumbnail" />
-            </a>
-            <div class="p-4">
-              <h3 class="text-lg font-semibold mb-1 text-black dark:text-white">Build a Simple Proxy Server to Bypass
-                CORS
+              <h3 class="text-lg font-semibold mb-1 text-black dark:text-white">
+                {{ post?.title }}
               </h3>
-              <p class="text-sm text-gray-600 dark:text-white mb-2">Published: 6 Dec 2024</p>
-              <p class="text-gray-700 dark:text-gray-200 text-sm">A quick tutorial on how to create a lightweight
-                Node.js proxy to solve annoying CORS issues for frontend development...</p>
-              <a class="inline-block mt-3 text-blue-600 dark:text-blue-700 font-medium hover:underline"
-                href="https://akashchouhan16.medium.com/howto-build-a-simple-proxy-server-to-bypass-cors-88e0e6c065e4"
-                target="_blank">
+              <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                {{ post?.publishedOn }}
+              </p>
+              <p class="text-gray-700 dark:text-gray-300 text-sm">
+                {{ post?.description }}
+              </p>
+              <a class="inline-block mt-3 text-blue-600 dark:text-blue-400 font-medium hover:underline"
+                :href="post?.href" rel="noopener noreferrer" target="_blank">
                 Read more →
               </a>
             </div>
@@ -139,72 +116,50 @@
 
       <!-- Projects -->
       <section class="my-12">
-        <h2 class="text-3xl font-bold mb-6">Projects</h2>
+        <h2 class="text-3xl font-bold mb-6">{{labels?.projects}}</h2>
         <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          <div v-for="project in githubProjects" :key="project.name"
-            class="bg-white dark:bg-gray-800 rounded-md shadow-md overflow-hidden hover:shadow-md transition">
+          <div v-for="project in githubProjects" :key="project?.name" class="bg-white dark:bg-gray-800 rounded-2xl shadow-md
+             overflow-hidden hover:shadow-md transition">
             <img :src="project.image" :alt="project.name + ' custom-thumbnail'" class="w-full h-40 object-cover" />
             <div class="p-5">
-              <h3 class="text-xl font-semibold mb-2">{{ project.name }}</h3>
-              <p class="text-gray-600 dark:text-gray-300 mb-4  h-20 overflow-hidden">{{ project.description }}</p>
-              <a :href="project.link" target="_blank"
-                class="inline-block px-4 py-2 text-sm font-medium bg-gray-700 text-white rounded-sm hover:bg-gray-800 transition">
+              <h3 class="text-xl font-semibold mb-2">{{ project?.name }}</h3>
+              <p class="text-gray-600 dark:text-gray-300 mb-4  h-20 overflow-hidden">
+                {{ project?.description }}</p>
+              <a :href="project?.link" target="_blank" rel="noopener noreferrer"
+                class="inline-block px-4 py-2 text-sm font-medium bg-gray-700 text-white rounded-2xl hover:bg-gray-800 transition">
                 View on GitHub
               </a>
             </div>
           </div>
         </div>
       </section>
-
     </div>
   </div>
+
+  <footer class="bg-white dark:bg-gray-800 dark:text-white-700 
+  text-center text-sm text-gray-500 pt-10 pb-2">
+    © 2025 Akash Chouhan · Built with Vue & Tailwind
+  </footer>
+
   <script>
     new Vue({
       el: '#app',
       data: {
         isDark: false,
-        name: 'Akash Chouhan',
-        description: {
-          line1: 'Hello, I’m Akash.',
-          line2: 'A software engineer with a passion for clean code — and a soft spot for chai.',
-          line3: 'Currently building at Dell as a Software Engineer II for the Global Digital Commerce platform.',
-          line4: 'You’ll usually find me deep in Node.js, Go, C++, C#, Angular, or playing with Docker, NPM, Actions, and Travis CI.',
-          line5: 'This site is my digital garden — a collection of projects, posts, and things I’m learning along the way.'
-        },
+        name: data?.name,
+        descriptions: data?.descriptions,
         currentTime: '',
-        utils: {
-          home: 'home',
-          about: 'about',
-          copyright: 'copyright',
-          posts: 'Posts'
-        },
-        githubProjects: [
-          {
-            name: 'NodeCache.js',
-            description: '🍁 A simple and intuitive in-memory cache with TTL support.',
-            link: 'https://github.com/akashchouhan16/nodeCache.js',
-            image: 'https://github.com/akashchouhan16/nodeCache.js/assets/56465610/3c72f526-73f2-4528-b01d-d188532b8231'
-          },
-          {
-            name: 'Traceip',
-            description: '🧬 Go based CLI to geo locate IP addresses, list mx records and more.',
-            link: 'https://github.com/akashchouhan16/traceip',
-            image: 'https://dqy38fnwh4fqs.cloudfront.net/UHJKQQQ7K8O8L782OR6JPLNRMOBM/projects/traceip.webp'
-          },
-          {
-            name: 'Blumea',
-            description: '🧩 A streamlined bloom filter npm package for JavaScript.',
-            link: 'https://github.com/akashchouhan16/devops-toolkit',
-            image: 'https://user-images.githubusercontent.com/56465610/215418750-3eb64619-5a69-48d1-949f-2af3c492a5d4.png'
-          }
-        ]
+        labels: data?.labels,
+        links: data?.links,
+        posts: data?.posts,
+        githubProjects: data?.projects
       },
       created() {
-        // Initialize theme from localStorage
+
         this.isDark = localStorage.getItem('theme') === 'dark';
         document.documentElement.classList.toggle('dark', this.isDark);
 
-        // browser resource hungry code below
+        // resource hungry code below
         this.updateTime();
         setInterval(this.updateTime, 1000);
       },
