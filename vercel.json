@@ -11,6 +11,5 @@
             "src": "/(.*)",
             "dest": "/index.html"
         }
-    ],
-    "trailingSlash": true
+    ]
 }
