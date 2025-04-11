@@ -1,0 +1,82 @@
+{
+    "name": "Akash Chouhan",
+    "links": [
+        {
+            "href": "mailto:akash.c1500@gmail.com",
+            "title": "Mail"
+        },
+        {
+            "href": "https://github.com/akashchouhan16",
+            "title": "GitHub"
+        },
+        {
+            "href": "https://akashchouhan16.medium.com",
+            "title": "Medium"
+        },
+        {
+            "href": "https://linkedin.com/in/akashchouhan16",
+            "title": "LinkedIn"
+        }
+    ],
+    "descriptions": [
+        "I am a software engineer with a love for chai and a passion for writing code.",
+        "Currently shaping digital commerce at <u><a href='https://dell.com' target='_blank'>Dell</a></u> as a Software Engineer II, working on high-impact B2B platforms.",
+        "This site is my digital garden — a collection of projects, posts, and things I’m learning along the way.",
+        "I thrive in the backend, wrangling Node.js, Go, and C#, and love building things with Angular, Vue, and Docker."
+    ],
+    "projects": [
+        {
+            "name": "NodeCache.js",
+            "description": "🍁 A simple and intuitive in-memory cache with TTL support.",
+            "link": {
+                "github": "https://github.com/akashchouhan16/nodeCache.js",
+                "npm": "https://www.npmjs.com/package/nodecache.js"
+            },
+            "image": "https://github.com/akashchouhan16/nodeCache.js/assets/56465610/3c72f526-73f2-4528-b01d-d188532b8231"
+        },
+        {
+            "name": "Traceip",
+            "description": "🧬 Go based CLI to geo locate IP addresses, list mx records and more.",
+            "link": {
+                "github": "https://github.com/akashchouhan16/traceip",
+                "dockerhub": "https://hub.docker.com/r/akashchouhan16/traceip"
+            },
+            "image": "https://dqy38fnwh4fqs.cloudfront.net/UHJKQQQ7K8O8L782OR6JPLNRMOBM/projects/traceip.webp"
+        },
+        {
+            "name": "Blumea",
+            "description": "🧩 A streamlined bloom filter npm package for JavaScript.",
+            "link": {
+                "github": "https://github.com/akashchouhan16/blumea",
+                "npm": "https://www.npmjs.com/package/blumea"
+            },
+            "image": "https://user-images.githubusercontent.com/56465610/215418750-3eb64619-5a69-48d1-949f-2af3c492a5d4.png"
+        }
+    ],
+    "posts": [
+        {
+            "image": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*kIOJcsqHmZ0KxDQu8wk90w.png",
+            "imageAlt": "Micro Frontend Architecture Blog",
+            "title": "Why move to a Micro Frontend Architecture?",
+            "description": "Understand how micro frontends empower large engineering teams to scale UI development independently...",
+            "href": "https://akashchouhan16.medium.com/why-move-to-a-micro-frontend-architecture-00c21cab48ed",
+            "publishedOn": "Published: 27 Dec 2024"
+        },
+        {
+            "image": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*MWXDE4rwMLnW2LoRDtaqEQ.png",
+            "imageAlt": "CORS Proxy Thumbnail",
+            "title": "Build a Simple Proxy Server to Bypass CORS",
+            "description": "A quick tutorial on how to create a lightweight Node.js proxy to solve annoying CORS issues for frontend development...",
+            "href": "https://akashchouhan16.medium.com/howto-build-a-simple-proxy-server-to-bypass-cors-88e0e6c065e4",
+            "publishedOn": "Published: 6 Dec 2024"
+        }
+    ],
+    "labels": {
+        "home": "home",
+        "about": "about",
+        "greet": "Hello! 🍵",
+        "copyright": "copyright",
+        "posts": "Posts",
+        "projects": "Projects"
+    }
+}
